@@ -1,2 +1,2 @@
 #!/bin/bash
-file -n [0] *school
+ls -xamp
