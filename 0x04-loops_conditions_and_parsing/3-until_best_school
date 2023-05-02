@@ -6,4 +6,5 @@ b=10
 until [ "$b" -eq 0 ]
 do
 	ehco "Best school"
+	((b--))
 done
