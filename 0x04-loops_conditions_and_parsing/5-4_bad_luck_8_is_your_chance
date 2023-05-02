@@ -5,7 +5,7 @@
 #displays Best School for the other iterations
 
 b=1
-while [ $b -lt 10 ]
+while [ $b -le 10 ]
 do
 	if [ $b -eq 4 ]
 	then
@@ -15,5 +15,6 @@ do
 		echo "good luck"
 	else
 		echo "Best School"
-	fi ((b++))	
+	fi
+	((b++))	
 done
