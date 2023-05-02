@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#This script prints out 'Best school' ten times using the until loop
+
+b=10
+
+until [ "$b" -eq 0 ]
+do
+	ehco "Best school"
+done
