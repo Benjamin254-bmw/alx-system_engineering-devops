@@ -4,7 +4,6 @@
 b=1
 while [ $b -le 10 ]
 do
-	echo "Best School"
 	if [ $b -eq 9 ]
 	then
 		echo "Best School"
