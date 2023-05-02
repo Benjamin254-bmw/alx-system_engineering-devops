@@ -6,6 +6,8 @@ while [ $b -lt 10 ]
 do
 	echo "Best School"
 	if [ $b -eq 8 ]
-		do
-			echo "Hi"
+		echo "Best School"
+		echo "Hi"
+	fi
+	((b++))
 done
