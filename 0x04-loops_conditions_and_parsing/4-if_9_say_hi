@@ -6,8 +6,11 @@ while [ $b -le 10 ]
 do
 	echo "Best School"
 	if [ $b -eq 9 ]
+	then
 		echo "Best School"
 		echo "Hi"
+	else
+		echo "Best School"
 	fi
 	((b++))
 done
