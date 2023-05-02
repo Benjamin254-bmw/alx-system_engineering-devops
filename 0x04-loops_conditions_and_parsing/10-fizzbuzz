@@ -12,7 +12,7 @@ do
 	elif (( i%5 == 0 ))
 	then
 		echo "Buzz"
-	esle
+	else
 		echo "$i"
 	fi
 done
