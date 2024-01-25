@@ -1,5 +1,5 @@
 # Creates a file with content
-file { '/tmp/holberton':
+file { 'school':
 ensure => 'present',
 path => '/tmp/school',
 mode => '0744',
