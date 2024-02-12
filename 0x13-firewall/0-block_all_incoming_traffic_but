@@ -1,5 +1,6 @@
 
 sudo apt-get install ufw
+sudo ufw --force enable
 sudo ufw status
 sudo ufw enable -y
 sudo ufw default deny incoming -y
