@@ -7,10 +7,10 @@ import sys
 
 def number_of_subscribers(subreddit):
     """Read reddit API and return number subscribers """
-    username = 'mistidevs'
-    password = 'Misati@2004'
+    username = 'benjamin254-bmw'
+    password = 'BenjaminMW'
     user_pass_dict = {'user': username, 'passwd': password, 'api_type': 'json'}
-    headers = {'user-agent': '/u/mistidevs API Python for Holberton School'}
+    headers = {'user-agent': '/u/benjamin254-bmw API Python for Holberton School'}
     url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     client = requests.session()
     client.headers = headers
